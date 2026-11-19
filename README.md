@@ -1,7 +1,7 @@
 # DeepViG: Overcoming Residual Stream Instability in Vision GNNs via LayerScale and Group Normalization
 
 <p align="center">
-  <img src="./assets/deepvig_architecture.png" alt="DeepViG Architecture" width="80%" />
+  <img src="https://github.com/RKSAHOO4414/DeepVig_project/blob/main/phase_0_experiemnt/deepvig_architecture.png" alt="DeepViG Architecture" width="80%" />
 </p>
 
 <p align="center">
