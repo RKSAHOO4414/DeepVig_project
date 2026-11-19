@@ -363,5 +363,4 @@ If you use this code or find our work helpful, please cite:
 ## Contact and Acknowledgments
 
 - **Author:** Ranjan Kumar Sahoo — `ranjansahoo4414@gmail.com`
-- **Mentor:** Dr. A Sai Charan — `saicharan.a@alliance.edu.in`
 - **Institution:** Alliance School of Advanced Computing, Alliance University, Bengaluru, India
