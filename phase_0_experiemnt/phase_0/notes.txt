@@ -1,0 +1,33 @@
+### 1. Environment Setup
+
+```bash
+# Create conda environment
+conda create -n deepvig python=3.10 -y
+conda activate deepvig
+
+# Install PyTorch (adjust CUDA version as needed)
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Install dependencies
+pip install timm pytorch-geometric wandb pyyaml numpy
+
+
+Run Phase 0
+# Run both experiments
+python phase0_setup.py --data_dir ./data/imagenet100 --epochs 100
+
+# Run only profiling (no training)
+python phase0_setup.py --skip_train
+
+# Run only baseline reproduction
+python phase0_setup.py --skip_profile
+
+deepvig_project/
+├── data/
+│   └── imagenet100/
+│       ├── train/
+│       │   ├── n01440764/   ...
+│       │   └── n03991062/   ...
+│       └── val/
+│           ├── n01440764/   ...
+│           └── n03991062/   ...

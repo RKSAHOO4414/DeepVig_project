@@ -1,0 +1,30 @@
+# configs/vig_ti_imagenet100.yaml
+model:
+  name: pyramid_vig_ti
+  embed_dim: 48
+  depths: [2, 2, 6, 2]
+  drop_path_rate: 0.1
+  num_classes: 100
+
+training:
+  epochs: 100
+  batch_size: 128
+  lr: 2.0e-3
+  weight_decay: 0.05
+  warmup_epochs: 20
+  optimizer: adamw
+  amp: true
+
+data:
+  dataset: imagenet100
+  data_dir: ./data/imagenet100
+  num_workers: 8
+  input_size: 224
+
+augmentation:
+  mixup: 0.8
+  cutmix: 1.0
+  label_smoothing: 0.1
+  auto_augment: rand-m9-mstd0.5-inc1
+  color_jitter: 0.4
+  random_erasing: 0.25
