@@ -6,8 +6,7 @@
 
 **Author:** [Ranjan Kumar Sahoo](https://github.com/RKSAHOO4414)  
 **Affiliation:** Alliance School of Advanced Computing, Alliance University, Bengaluru, India  
-**Mentor:** Dr. A Sai Charan  
-**Contact:** `kranjanmtech25@stu.alliance.edu.in`
+**Contact:** `ranjansahoo4414@gmail.com` 
 
 ---
 
