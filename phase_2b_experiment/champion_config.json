@@ -1,0 +1,8 @@
+{
+  "config": "B4_postGN_LS_24",
+  "blocks": 24,
+  "params_M": 11.287108,
+  "acc_mean": 0.6254,
+  "acc_std": 0.002163330765278371,
+  "throughput": 7357.109825829278
+}
